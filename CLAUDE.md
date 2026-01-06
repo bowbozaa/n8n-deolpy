@@ -1,41 +1,41 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code when working with this repository.
+ไฟล์นี้ให้คำแนะนำสำหรับ Claude Code เมื่อทำงานกับ repository นี้
 
-## Project Overview
+## ภาพรวมโปรเจกต์
 
-This is an n8n deployment project. n8n is a workflow automation tool that allows you to connect various services and automate tasks.
+โปรเจกต์นี้สำหรับการ deploy n8n ซึ่งเป็นเครื่องมือสร้าง workflow อัตโนมัติที่ช่วยเชื่อมต่อบริการต่างๆ และทำให้งานเป็นอัตโนมัติ
 
-## Project Structure
+## โครงสร้างโปรเจกต์
 
 ```
 n8n-deolpy/
-├── README.md          # Project documentation
-└── CLAUDE.md          # Claude Code instructions
+├── README.md          # เอกสารโปรเจกต์
+└── CLAUDE.md          # คำแนะนำสำหรับ Claude Code
 ```
 
-## Development Guidelines
+## แนวทางการพัฒนา
 
-- Follow infrastructure-as-code best practices
-- Use descriptive names for workflows and configurations
-- Document any environment variables or secrets required
-- Test deployments in a staging environment before production
+- ปฏิบัติตามหลัก infrastructure-as-code
+- ใช้ชื่อที่สื่อความหมายสำหรับ workflow และการตั้งค่า
+- บันทึก environment variables หรือ secrets ที่จำเป็น
+- ทดสอบการ deploy ใน staging environment ก่อน production
 
-## Common Tasks
+## งานที่พบบ่อย
 
-- **Setup**: Configure deployment environment and dependencies
-- **Deploy**: Deploy n8n instance to target infrastructure
-- **Update**: Update n8n version or configuration
-- **Backup**: Backup workflows and credentials
+- **Setup**: ตั้งค่า environment และ dependencies สำหรับ deployment
+- **Deploy**: Deploy n8n ไปยัง infrastructure เป้าหมาย
+- **Update**: อัปเดตเวอร์ชัน n8n หรือการตั้งค่า
+- **Backup**: สำรองข้อมูล workflows และ credentials
 
 ## Environment Variables
 
-Document any required environment variables here:
-- `N8N_HOST` - Host URL for n8n instance
-- `N8N_PORT` - Port number (default: 5678)
-- `N8N_PROTOCOL` - http or https
+รายการ environment variables ที่จำเป็น:
+- `N8N_HOST` - URL ของ n8n instance
+- `N8N_PORT` - หมายเลข port (ค่าเริ่มต้น: 5678)
+- `N8N_PROTOCOL` - http หรือ https
 
-## Notes
+## หมายเหตุ
 
-- Keep sensitive data out of version control
-- Use secrets management for credentials
+- เก็บข้อมูลที่เป็นความลับไว้นอก version control
+- ใช้ระบบจัดการ secrets สำหรับ credentials
