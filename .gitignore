@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment & Secrets
+.env
+.env.*
+.dev.vars
+*.credentials
+*.secret
+*.pem
+*.key
+service-account*.json
+firebase*.json
+
+# AI Tools & IDE
+.cursor/
+.claude/
+.gemini/
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
